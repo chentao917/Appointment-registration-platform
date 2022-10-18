@@ -13,6 +13,13 @@
     <packaging>pom</packaging>
     <modules>
         <module>service_hosp</module>
+        <module>service_cmn</module>
+        <module>service_user</module>
+        <module>service_msm</module>
+        <module>service_oss</module>
+        <module>service_order</module>
+        <module>service_task</module>
+        <module>service_statistics</module>
     </modules>
 
     <properties>
@@ -53,21 +60,21 @@
             <artifactId>spring-boot-devtools</artifactId>
             <optional>true</optional>
         </dependency>
-<!--        &lt;!&ndash; 服务调用feign &ndash;&gt;
+<!--&lt;!&ndash;        &lt;!&ndash; 服务调用feign &ndash;&gt;-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
-        &lt;!&ndash; 服务注册 &ndash;&gt;
+        <!-- 服务注册 -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
-        &lt;!&ndash; 流量控制 &ndash;&gt;
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
-        </dependency>-->
+        <!-- 流量控制 -->
+<!--        <dependency>-->
+<!--            <groupId>com.alibaba.cloud</groupId>-->
+<!--            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>-->
+<!--        </dependency>-->
     </dependencies>
 
 </project>

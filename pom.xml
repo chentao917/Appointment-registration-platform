@@ -6,6 +6,9 @@
         <module>common</module>
         <module>model</module>
         <module>service</module>
+        <module>service_client</module>
+        <module>service_gateway</module>
+        <module>service_hosp_client</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -124,6 +127,11 @@
                 <artifactId>joda-time</artifactId>
                 <version>${jodatime.version}</version>
             </dependency>
+<!--            <dependency>-->
+<!--                <groupId>org.apache.httpcomponents</groupId>-->
+<!--                <artifactId>httpclient</artifactId>-->
+<!--                <version>4.5.6</version>-->
+<!--            </dependency>-->
         </dependencies>
     </dependencyManagement>
 
